@@ -1,0 +1,213 @@
+*{
+  color: white;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #2e0219;
+  width: 100%;
+
+}
+input{
+  color: black;
+}
+
+ .navbar{
+  width: 100VW;
+  background-color: #553739 !important;
+  color: white !important;
+  padding: 1rem .3rem 1rem 0;
+  margin-bottom: 2rem;
+}
+.navbar-brand{
+  color: white;
+  margin-left: 3rem;
+} 
+
+.intialbudgetcontainer,.intialbudget{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: .4rem;
+  gap: 2rem;
+  color: white;
+}
+.setbtn{
+  height: 2.28rem;
+  width: 7rem;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: .3rem;
+}
+.setbtn:hover{
+  background-color: green;
+  color: white;
+}
+.setinput{
+  height: 2.28rem;
+  width: 8rem;
+  border: 1px solid white;
+  border-radius: .3rem;
+}
+.piecontainer{
+  margin-top: 0;
+  height: 100%;
+  width: 100vw;
+  margin-left: 2rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+/* .nav-inp{
+  background-color: #2A3335;
+} */
+.row-1, .row-2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.piechart{
+  margin-top: 3rem;
+  padding: 1rem;
+  border-bottom: 1px solid white;
+  border-radius: 1rem;
+  height: 22rem !important;
+  width: 22rem !important;  
+}
+.expense-inputs, .total-expenses{
+  margin-top: 3rem;
+  padding: 1rem;
+  border-bottom: 1px solid white;
+  border-radius: 1rem;
+  height: 22rem !important;
+  width: 22rem !important;  
+}
+/* .expense-inputs{
+  height: 23rem;
+} */
+.transactions{
+  margin-top: 3rem;
+  padding: 1rem;
+  border-bottom: 1px solid white;
+  border-radius: 1rem;
+  height: 25rem !important;
+  width: 35rem !important;  
+  overflow-y: auto;
+}
+.transactions::-webkit-scrollbar {
+  width: 8px;
+}
+.transactions ul{
+  margin-bottom: .7rem;
+}
+
+.transactions::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+.transactions::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  gap: 1.3rem;
+}
+.expense-inputs h3{
+  text-align: center;
+}
+.plain-input{
+  height: 2rem;
+  width: 4rem;
+  margin-bottom: .5rem;
+}
+.btn{
+  height: 2.28rem;
+  width: 3rem;
+  margin-bottom: .3rem;
+  padding: 0;
+  margin-left: .3rem;
+  color: white;
+  background-color: none;
+  border: 1px solid #fff;
+}
+.add-btn:hover{
+  background-color: green;
+  color: white;
+}
+.dlt-btn:hover{
+  background-color: red;
+  color: white;
+}
+.edit-btn:hover{
+  background-color: rgba(255, 255, 0, 0.5);
+  color: white;
+}
+.expense-label{
+  height: 2rem;
+  width: 4.5rem;
+  margin-bottom: .5rem;
+ 
+}
+
+.total-expenses h4{
+  text-align: center;
+}
+.expense-value{
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+
+/* footer */
+.footer-main{
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  width: 100vw;
+  height: 12rem;
+  background-color: #2A3335;
+}
+.footer-links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+}
+.footer-link{
+  margin: .5rem;
+  font-size: 1.5rem;
+}
+.f-img{
+  height: 22px;
+  width: 22px;
+  margin-top: -5%;
+  margin-left: 0;
+  color: #2A3335 !important;
+  
+}
+.heart-icon.filled {
+  color: red; /* Color change when heart is filled */
+}
+#heart{
+  cursor: pointer;
+}
+.s-btn{
+  height: 3rem;
+  width: 6rem;
+  margin-right: 3rem;
+  padding: .6rem;
+}
